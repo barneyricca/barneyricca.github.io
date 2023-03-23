@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Barney Ricca’s website",
+    "section": "",
+    "text": "Welcome to my miscellaneous musings on methods for the study of nonlinear systems! This is a place for occasional (twice/month, I plan) writings about statistics and the even more occasional musings on other stuff. Two factors drive what shows up on these pages.\nFirst, I have an interest in modeling social science systems using nonlinear dynamical system methods and approaches. There are a lot of ins and outs when doing this work and this site will force me into being explicit and therefore a little bit more rigorous about my thoughts. This site will also give me a place to put stuff which probably doesn’t deserve a paper but which does need to be public. Making something public enables others to benefit from it. Besides, someone might see this, comment on it, and improve my understanding. In the words of my dissertation advisor:\n“To engage in research, you must not hide anything you find. It is impossible to hoard research results or ideas because they are so immensely perishable that no refrigerator or freezer is capable of preserving them; ‘except a corn of wheat fall into the ground and die, it abideth alone.’ On the contrary, you must be willing to feed what you produce into the meat grinder of your colleagues’ criticism where it can be transformed, matured and blended and finally bring forth much fruit.”\nThe second driver is that much of what I write here is being written so that I can learn it or learn to do it better in R. Some of this stuff is to help me prepare for presentations, and some is to integrate or juxtapose ideas in new ways just because that’s how I like learning. But whatever the details, I’m writing stuff so that I will understand it better. If it benefits others, then I’ll consider that to be a added benefit.\nA note about *complex dyanmic systems* (CDS) and *nonlinear dynamic systems* (NDS). When I first started doing this type of work there wasn’t a clear delineation between these two. However, the distinction between these two has become more clear in recent years. (See, for example, a recent (as of now!) piece by Maxi San Miguel on Complex Systems that largely separates CDS from the work that I do, particularly in terms of the datasets that I investigate.)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]
