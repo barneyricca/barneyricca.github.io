@@ -2,4 +2,12 @@
 title: "About"
 ---
 
-About this site
+Bernard (Barney) Ricca is a Research Associate Professor at the <a href = "https://resilience.uccs.edu">Lyda Hill Institute for Human Resilience (LHIHR)</a> at <a href = "https://uccs.edu">University of Colorado Colorado Springs (UCCS)</a>. Originally trained as a physicist (acoustics of musical instruments) he worked in STEM education (including a couple of stints as a high school STEM teacher) for almost a quarter century and spent several years as a data science/statistics professor before moving to LHIHR.
+
+His work at LHIHR includes the more usual statistics and data science efforts (e.g., regressions, lots of data wrangling) as well as nonlinear dynamic systems analyses (e.g., recurrence quantification analysis, phase identification and early warning signals, and lots more). Both data science and nonlinearity have been part of Barney's background for 40 or more years, and so he feels fortunate to be at LHIHR. (Plus, working at LHIHR has the added benefit of being part of a really wonderful group of people!)
+
+When not being a quant nerd, Barney enjoys reading (usually quant nerd stuff, though), eating, hiking/biking, and traveling. He lives in Rochester, NY with his wife, son (who's soon to be off to Uni), and two Labrador retrievers.
+
+In case you want a CV, you can get a <a href="./BPR_CV.pdf">relatively recent one of Barney's</a>.
+
+This website was created using Quarto in RMarkdown. See [Creating a Website](https://quarto.org/docs/websites/) for the basics of what I'm doing. Sure, there are fancier ways to do all this, but this is at least a (giant) step up from the hand-coded HTML pages that I used for about 25 years.

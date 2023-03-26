@@ -1,0 +1,20 @@
+---
+title: "Why Nonlinear?"
+author: "BPR"
+date: "2023-03-24"
+categories: [R]
+---
+
+Before jumping into all sorts of method-y things, I should explain why I think that nonlinear methods are important.
+
+Linear, reductive methods have been very successful. (Without them, for instance, the computer on which I'm composing this blog probably wouldn't exist!) However, linear works best for the nonliving world; in the living world, almost nothing is linear. (And for that matter, almost nothing is normally distributed or easily reduced to itself separate from its environment.) I believe that we teach linear because (a) it is less hard than nonlinear (in general) and (b) cultural inertia leads teachers to teach what they were taught, and linear got here first.
+
+But we know that the linear doesn't really work in real (living) life: 1 aspirin may be good, but 20 are not 20 times better. 1 chocolate milkshake may be wonderful, but 20 chocolate milkshakes are anything but 20 times as wonderful. Economists talk about "diminishing returns" (and if you're Brian Arthur, "increasing returns") which mean "not linear." And there are an almost infinite number of other examples. Hence, the world appears to be is nonlinear.
+
+For small changes, linear approximations to nonlinearities work well, though; a flat (linear) map of a city is fine for navigating, but a flat (linear) map of the world will not result in very efficient airline routes. Because of this, linear has had successes (and will continue to have successes) in social science research. But because few researchers consider what is "small" enough for the linear approximation to work, there are lots of seeming problems that arise with the linear paradigm.
+
+Hence, we should move beyond the linear.
+
+Of course, we shouldn't move too far beyond the linear:
+
+![](spacetime_soccer_2x.jpg){fig-alt="Soccer played on a surface curved by a large gravitational field." fig-align="center"}

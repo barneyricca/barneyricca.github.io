@@ -1,0 +1,54 @@
+---
+title: "Correlations"
+author: "BPR"
+date: "2023-03-24"
+categories: [R]
+---
+
+This example is really just so I can practice putting R chunks into my blog and making sure everything works as I expect it to. I might even remove this blog after I'm better at this.
+
+The mythical "everyone" knows to run a correlation, and to look at a scatterplot, as part of your exploratory data analysis (EDA). Amost all of these correlations are Pearson correlations, which are great for linear relationships, but not so great for nonlinear relationships. However, a distance correlation can start to get at the nonlinear. Here's an example.
+
+```{r createData}
+set.seed(20230324)
+runif(n = 50,
+      min = 1,
+      max = 20) -> # Yes, I write my R code
+  x                #  backwards. Deal with it.
+1.7 * (x-10) ^ 2 -2 + rnorm(n = 50,
+                            mean = 0,
+                            sd = 2) ->
+  y
+```
+
+Quadratics are perhaps the "simplest" nonlinear relationship.
+
+```{r savePlot, include = FALSE}
+jpeg(filename = "image.jpg")
+plot(x,y,
+     pch = 16,
+     cex = 0.5,
+     main = "Nonlinear relationship")
+dev.off()
+```
+
+```{r plotData, include = FALSE}
+plot(x,y,
+     pch = 16,
+     cex = 0.5,
+     main = "Nonlinear relationship")
+```
+
+!\[\](quadratic.jpg)
+
+Yep, looks nonlinear.
+
+```{r correlations, include = FALSE}
+library(energy)     # Distance correlation
+cor(x, y)
+dcor(x, y)
+```
+
+The Pearson correlation, `r cor(x,y)` , fails to indicate a relationship but the distance correlation (energy::dcor) `r dcor(x, y)` does indicate a relationship. Bootstrapped confidence intervals would show that there is significance in the distance correlation value.
+
+Wow, that wasn't bad; render this document, then render the website homepage, and it works! Of course, there is no thumbnail. I'll have to figure out how to use the \[image\] tab to have the plot be the thumbnail. (I could, as a workaround, save the plot, and then insert the saved plot. However, that seems clunky and open to problems. That's for another day.)

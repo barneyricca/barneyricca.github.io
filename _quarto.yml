@@ -14,8 +14,8 @@ website:
       - href: presentations.qmd
         text: Presentations
       - about.qmd
-      - href: contact.qmd
-        text: Contact
+      - href: connect.qmd
+        text: Connect
 
 format:
   html:

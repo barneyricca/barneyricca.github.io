@@ -1,0 +1,26 @@
+---
+title: "Writing Tablets"
+author: "BPR"
+date: "2023-03-25"
+categories: [musings]
+---
+
+I write. A lot. I write to take notes, but more importantly, I write because I think better when I'm writing than when I'm typing. However, over time I ended up with many notebooks but without a good way to index or organize them. So, I thought, I could try an electronic notebook. Which I did.
+
+Several times.
+
+My first (in maybe 2018) was a not-ready-for-prime time device. That company is a few versions on from the one I tried, but I haven't tried their recent offerings.
+
+I could, perhaps, try an iPad with the fancy pen. But that doesn't work for me. I'm not opposed to Apple products - my house has at least 4 iPhones, 3 MacBooks, 3 airPods, 2 iPads, and 2 Apple watches - but I found that there were three problems with using an iPad. First, I could never get a combination of pen nib and screen protector that felt right for writing; they were always too slick. Plus, I had to put a piece of heat shrink tubing on the pen to get a grip I liked. (Fortunately, the iPad came courtesy of my previous employer, so I only had to pay for the modifications I made, all of which could be undone when I had to return the iPad when I left.) Second, it didn't work well outside on a sunny day. (Hey, I have a chair swing in my backyard that is a good place for musing.) And third, my eyes are really dry and the iPad screen created a lot of eye strain. So, the iPad was out.
+
+Then I saw an ad for the Remarkable2 and took a chance. I really liked it. A lot. It felt good. It's an eInk device - only greyscale - but that means it works well in the sunlight. Plus it had some neat features: Convert to PDF (with or without handwriting recognition), the ability to email notes directly from the device, the ability to work with PDF (including filling out forms!), screencasting (for drawing during the long e-meetings) and cloud storage. As I said, I liked it a lot. The biggest downsides were the limited memory (8 GB) and a proprietary operating system that meant I couldn't put a Kindle app on it. (Say what you want about Amazon, but I have lots of technical ebooks, which means I have lots of Kindle books. I like real books better, but (a) I can't take them with me when I travel and (b) our house has a ton of windows, so relatively little wall space for bookshelves.)
+
+But then, one day, my social media feed thought I needed a Supernote. Hmm...let's try it. Backlit (so I could read and write in the dark). It could play music through my bluetooth earbuds. More storage (64 GB vs 8 GB for the Remarkable2). It had the ability to put a Kindle reader on it (because it runs on Android OS). Technically, the Supernote is really well done (although the manual is a bit lacking). But the writing didn't feel as good to me as the Remarkable2.
+
+Then there was the Onyx Boox Note Air 2. It was backlit. And it had more memory than the Remarkable2. And the writing feel was almost as good as the Remarkable2. (The difference is really small, but I can notice it if I pay attention.) And it could get a Kindle app (Android again). And, supposedly, later this year, there will be a Zotero app available for Android. (In the same way that my ebooks are basically all Kindle, or converted to Kindle using Calibre, I keep all my PDFs in Zotero.)
+
+The Boox, because of the OS, also has other advantages, although these are more in the category of tiebreakers for me: Music, Outlook (so I can delete all the emails I don't need to deal with), the NYT crossword app. (Sorry, games like Wordle don't do well on greyscale.) And even a basic web-browser for when I absolutely need to get to Wikipedia.
+
+And so, my search ended. I use an Onyx Boox as my everyday device, and I really do like it. It has some deficiencies. Finding a decent case was non-trivial. (Hey, I dropped my Remarkable2 on a brick floor, but the case protected it, so I'm a big believer in cases.) The power button and the charging port are on the left hand side of the device, so I had to cut a hole in the case so that it could be charged while the case was closed. The Remarkable2 had a little bit easier transfer of files. The pen (and replacement nibs) is a bit expensive, but that's okay because I use my Remarkable2 pen. (Speaking of pens, be sure to get one with the eraser; it is very handy.)
+
+Now, for my cheat on all this. I'm going to get rid of the Supernote, but I'm keeping the Remarkable2 in addition to the Onyx Boox. When I'm working my way through a textbook (so much to learn, so little time), the flipping back and forth from book to notes was really annoying me. (It would be nice if Onyx would install a flip back and forth feature, and let me copy and paste between apps. Of course, if they add enough more then the device will slow to a crawl and, well, then we're back to having a laptop. Oh, well.) So, my Remarkable2 is getting use as a homework aid; I read the text on the Boox, and take notes and do homework problems on the Remarkable2.

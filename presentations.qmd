@@ -1,0 +1,14 @@
+---
+title: "Presentations"
+listing:
+  contents: presentations
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+Not infrequently I make teaching presentations. Although not everything will be made available here, I'll try to update this page as these things happen. The included items are intended for those who attended the presentation, but because my PowerPoint notes tend to be very sketchy at best, you might need to [contact](contact.qmd) me to understand just exactly what I was talking about.

@@ -4,5 +4,38 @@
   },
   "about.qmd": {
     "about.html": "85a6f1af"
+  },
+  "methods/post-with-code/index.qmd": {
+    "index.html": "37c0b77d"
+  },
+  "methods/welcome/index.qmd": {
+    "index.html": "33122578"
+  },
+  "musings/post-with-code/index.qmd": {
+    "index.html": "b195b588"
+  },
+  "musings/welcome/index.qmd": {
+    "index.html": "19bc5cd0"
+  },
+  "methods.qmd": {
+    "methods.html": "511e5278"
+  },
+  "musings.qmd": {
+    "musings.html": "b7fb6dc7"
+  },
+  "presentations.qmd": {
+    "presentations.html": "a7f7f335"
+  },
+  "contact.qmd": {
+    "contact.html": "54cd1c7c"
+  },
+  "methods/Correlation_as_test/index.qmd": {
+    "index.html": "7ebb7164"
+  },
+  "connect.qmd": {
+    "connect.html": "a9392914"
+  },
+  "musings/ePaper/index.qmd": {
+    "index.html": "5ad9ea82"
   }
 }

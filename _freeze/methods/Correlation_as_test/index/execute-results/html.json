@@ -1,0 +1,16 @@
+{
+  "hash": "c1cd74cb4224de4070fc5975c248ffca",
+  "result": {
+    "markdown": "---\ntitle: \"Correlations\"\nauthor: \"BPR\"\ndate: \"2023-03-24\"\ncategories: [R]\n---\n\n\nThis example is really just so I can practice putting R chunks into my blog and making sure everything works as I expect it to. I might even remove this blog after I'm better at this.\n\nThe mythical \"everyone\" knows to run a correlation, and to look at a scatterplot, as part of your exploratory data analysis (EDA). Amost all of these correlations are Pearson correlations, which are great for linear relationships, but not so great for nonlinear relationships. However, a distance correlation can start to get at the nonlinear. Here's an example.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nset.seed(20230324)\nrunif(n = 50,\n      min = 1,\n      max = 20) -> # Yes, I write my R code\n  x                #  backwards. Deal with it.\n1.7 * (x-10) ^ 2 -2 + rnorm(n = 50,\n                            mean = 0,\n                            sd = 2) ->\n  y\n```\n:::\n\n\nQuadratics are perhaps the \"simplest\" nonlinear relationship.\n\n\n\n\n\n\n\n!\\[\\](quadratic.jpg)\n\nYep, looks nonlinear.\n\n\n\n\n\nThe Pearson correlation, 0.0133489 , fails to indicate a relationship but the distance correlation (energy::dcor) 0.5180028 does indicate a relationship. Bootstrapped confidence intervals would show that there is significance in the distance correlation value.\n\nWow, that wasn't bad; render this document, then render the website homepage, and it works! Of course, there is no thumbnail. I'll have to figure out how to use the \\[image\\] tab to have the plot be the thumbnail. (I could, as a workaround, save the plot, and then insert the saved plot. However, that seems clunky and open to problems. That's for another day.)\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
