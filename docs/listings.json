@@ -1,0 +1,20 @@
+[
+  {
+    "listing": "/methods.html",
+    "items": [
+      "/methods/post-with-code/index.html",
+      "/methods/Correlation_as_test/index.html",
+      "/methods/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/musings.html",
+    "items": [
+      "/musings/ePaper/index.html"
+    ]
+  },
+  {
+    "listing": "/presentations.html",
+    "items": []
+  }
+]
