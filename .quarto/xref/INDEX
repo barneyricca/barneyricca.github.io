@@ -37,5 +37,11 @@
   },
   "musings/ePaper/index.qmd": {
     "index.html": "5ad9ea82"
+  },
+  "methods/inferring_markov/index.qmd": {
+    "index.html": "d30a5708"
+  },
+  "methods/Nonlinear/index.qmd": {
+    "index.html": "f2bb7b91"
   }
 }

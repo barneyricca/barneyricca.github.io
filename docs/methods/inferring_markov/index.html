@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Harlow Malloc">
-<meta name="dcterms.date" content="2023-03-24">
+<meta name="author" content="BPR">
 
-<title>Website - Post With Code</title>
+<title>Website - Inferring Markov Chains</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -115,13 +114,8 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Post With Code</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">news</div>
-                <div class="quarto-category">code</div>
-                <div class="quarto-category">analysis</div>
-              </div>
-                  </div>
+      <h1 class="title">Inferring Markov Chains</h1>
+                      </div>
   </div>
     
   
@@ -130,16 +124,10 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Harlow Malloc </p>
+               <p>BPR </p>
             </div>
     </div>
       
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">March 24, 2023</p>
-      </div>
-    </div>
     
       
     </div>
@@ -157,7 +145,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This is a post with executable code.</p>
+<p>A while ago I had a problem that would likely be addressed if I could model the data with a <em>kth</em>-order Markov chain. Before jumping in, I looked to see what anyone else had done, and as often seems to be the case when I find a problem that I’m interested in, I found <a href="https://link.aps.org/doi/10.1103/PhysRevE.76.011106">a paper</a> with James Crutchfield as the second author that has a lot to say on the topic. (I’ve never met him, but Crutchfield seems to have rather nice insights into a wide range of problems.) The paper starts off “Statistical inference of models from small data samples is a vital tool in the understanding of natural systems. In many problems of interest data consists of a sequence of letters from a finite <em>alphabet</em>.” (Emphasis in the original.) This sounds just the thing for working with ecological momentary assessment (EMA) data.</p>
+<p>An aside: EMA data generally consists of a number of survey questions (usually individual questions taken from psychological scales, like questions about depression taken from the PHQ-9,) answered on a cell phone app one or more times per day for a number of days. For example, data collected by Heather Littleton and colleagues asked hurricane survivors about 25 questions every day for 6 weeks. These questions can be used to create psychological “states” for each round of data collection, either by looking at the full scales from which the data are collected, or by clustering the responses, or some other method. This results in a “finite alphabet” of states, which are great fodder for Markov chains.</p>
+<p>The problem, then, is to use the data to infer the appropriate order of Markov chain and to estimate the entries in the matrix, hopefully including confidence intervals (or in this case, Bayesian <em>posterior credible intervals</em>,) on those estimates. It is at this point that the paper of Strelioff et al.&nbsp;(2007) comes into play. The authors use a Bayesian approach to determine both the order and entries of the Markov matrices. However, like many papers, the whole thing needs some unpacking to be easily moved beyond the demonstrations in the paper. So, I sat down to do just that.</p>
 
 
 
