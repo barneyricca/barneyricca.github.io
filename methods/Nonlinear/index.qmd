@@ -18,3 +18,5 @@ Hence, we should move beyond the linear.
 Of course, we shouldn't move too far beyond the linear:
 
 ![](spacetime_soccer_2x.jpg){fig-alt="Soccer played on a surface curved by a large gravitational field." fig-align="center"}
+
+(The spacetime soccer comic is used with permission from [XKCD](https://xkcd.com/2705))
